@@ -14,8 +14,13 @@ body {
     background: #eee;
 }
 
+img:hover {
+    transform: scale(105%);
+}
+
 img {
     max-width: 400px;
+    transition: all 0.5s ease-in;
 }
 
 ul {
@@ -168,7 +173,7 @@ a {
 .footer .container {
     display: flex;
     padding: 50px 150px;
-    background: #0c0e13;
+    background: linear-gradient(180deg, #31406b, #0c0e13) fixed;
     margin: 50px 100px;
     border-radius: 1rem;
     justify-content: space-between;
